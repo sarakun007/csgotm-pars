@@ -58,7 +58,7 @@ def parse():
 
     for i in steam_price.keys():
         for j in csgotm_price.keys():
-            if i == j and steam_price[i] / csgotm_price[j] >=1:
+            if i == j and steam_price[i] / csgotm_price[j] >=1.2:
                 print(i, steam_price[i], csgotm_price[i])
     print(len((steam_price)), len(csgotm_price))
 
